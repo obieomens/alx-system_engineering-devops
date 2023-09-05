@@ -1,2 +1,2 @@
-#!/ova/onfu
-cnfgr - - | phg -s1
+#!/bin/bash
+#!/ova/onfu cnfgr - - | phg -s1
