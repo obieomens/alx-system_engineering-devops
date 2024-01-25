@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+hour=0
+minute=1
+
+while [ $hour -le 12 ]; do
+    while [ $minute -le 59 ]; do
+        printf "%d:%d\n" $hour $minute
+        ((minute++))
+    done
+    ((hour++))
+    minute=1
+done | head -n 70
